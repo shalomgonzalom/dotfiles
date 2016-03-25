@@ -32,7 +32,7 @@
 * Switch between the last two files with space-space.
 * Essential plugins:
   * [EasyMotion](https://github.com/easymotion/vim-easymotion):
-  * [FZF.vim](https://github.com/junegunn/fzf.vim):
+  * [fzf.vim](https://github.com/junegunn/fzf.vim):
   * [IndentLine](https://github.com/Yggdroot/indentLine):
   * [Deoplete](https://github.com/Shougo/deoplete.nvim): Asynchronous completion framework for Neovim.
   * [Neomake](https://github.com/benekastah/neomake): Asynchronous :make using Neovim's job-control functionality.
@@ -54,4 +54,6 @@
 
 ## i3wm - What's included?
 * Set prefix to `<Ctrl>`
+* Scripts used:
+ * [i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout): Scripts to open new windows in i3wm using alternating layouts (splith/splitv) for each new window.
 
