@@ -18,10 +18,16 @@
 - [Thanks](#thanks)
 - [License](#license)
 - [Links](#links)
-- 
-## Tmux
-* Set prefix to `Ctrl+s`
 
-## Vim
+## Vim - What's included?
 * Set `<leader>` to a single space.
 * Switch between the last two files with space-space.
+* Essential plugins:
+  * [EasyMotion](https://github.com/easymotion/vim-easymotion):
+  * [FZF.vim] (https://github.com/junegunn/fzf.vim):
+  * 
+
+## Tmux - What's included?
+* Set prefix to `Ctrl+space`
+
+
