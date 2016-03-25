@@ -12,6 +12,7 @@
 
 - [Installation](#installation)
 - [Setup](#setup)
+- [Shell - What's included?](#vim)
 - [Vim - What's included?](#vim)
 - [Tmux - What's included?](#tmux)
 - [i3wm - What's included?](#i3wm)
@@ -20,8 +21,16 @@
 - [Links](#links)
 
 ## Shell - What's included?
-
-* Colorscheme: Base16-Solarized Dark [Base16-shell](https://github.com/chriskempson/base16-shell)
+* Use of ZSH.
+* ZSH plugin manager: [Zplug](https://github.com/b4b4r07/zplug).
+* Plugins:
+ *[enhancd](https://github.com/b4b4r07/enhancd):A next-generation cd command with an interactive filter.
+ *[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search): ZSH port of Fish shell's history search feature. https://sunaku.github.io/switching-from-fish-to-zsh.html
+ *[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting):
+ *[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):
+ *[zsh-completions](https://github.com/zsh-users/zsh-completions):
+* Colorscheme: Base16-Solarized Dark [Base16-shell](https://github.com/chriskempson/base16-shell):
+* [fzf](https://github.com/junegunn/fzf)
 
 ## Vim - What's included?
 * Use of [Neovim](https://github.com/neovim/neovim)
