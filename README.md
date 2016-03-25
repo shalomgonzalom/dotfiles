@@ -23,7 +23,7 @@
 * Use of [xcape](https://github.com/alols/xcape)
 
 ### Screenshot
-
+![alt tag](https://raw.githubusercontent.com/shalomgonzalom/dotfiles/master/keyboard-layout.png)
 
 ## Shell - What's included?
 * Use of ZSH.
