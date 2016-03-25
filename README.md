@@ -9,7 +9,8 @@
 
 - [Installation](#installation)
 - [Setup](#setup)
-- [Shell - What's included?](#vim)
+- [Keyboard setting](#keyboard)
+- [Shell - What's included?](#shell)
 - [Vim - What's included?](#vim)
 - [Tmux - What's included?](#tmux)
 - [i3wm - What's included?](#i3wm)
@@ -17,15 +18,23 @@
 - [License](#license)
 - [Links](#links)
 
+## Keyboard setting
+* `<Caps>` remapped to `<ESC>` with [xmodmap](https://wiki.archlinux.org/index.php/xmodmap) script
+* Use of [xcape](https://github.com/alols/xcape)
+
+### Screenshot
+
+
 ## Shell - What's included?
 * Use of ZSH.
 * ZSH plugin manager: [Zplug](https://github.com/b4b4r07/zplug).
+* Use of aliases.
 * Plugins:
-  *[enhancd](https://github.com/b4b4r07/enhancd):A next-generation cd command with an interactive filter.
-  *[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search): Zsh port of Fish shell's history search feature. https://sunaku.github.io/switching-from-fish-to-zsh.html
-  *[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Fish shell like syntax highlighting for Zsh. 
-  *[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Fish-like autosuggestions for Zsh.
-  *[zsh-completions](https://github.com/zsh-users/zsh-completions): Additional completion definitions for Zsh.
+  * [enhancd](https://github.com/b4b4r07/enhancd):A next-generation cd command with an interactive filter.
+  * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search): Zsh port of Fish shell's history search feature. https://sunaku.github.io/switching-from-fish-to-zsh.html
+  * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Fish shell like syntax highlighting for Zsh. 
+  * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Fish-like autosuggestions for Zsh.
+  * [zsh-completions](https://github.com/zsh-users/zsh-completions): Additional completion definitions for Zsh.
 * Colorscheme: Base16-Solarized Dark [Base16-shell](https://github.com/chriskempson/base16-shell):
 * [fzf](https://github.com/junegunn/fzf): A command-line fuzzy finder written in Go.
 
@@ -51,6 +60,8 @@
   * [Limelight](https://github.com/junegunn/limelight.vim): Hyperfocus-writing in Vim.
   * [Goyo](https://github.com/junegunn/goyo.vim): Distraction-free writing in Vim.
   * [gv](https://github.com/junegunn/gv.vim): A git commit browser.
+  * [vim-devicons](https://github.com/ryanoasis/vim-devicons): Adds font icons.
+  * [vimwiki](https://github.com/vimwiki/vimwiki): Personal Wiki for Vim.
 
 ## Tmux - What's included?
 * Set prefix to `<Ctrl>+<space>`
