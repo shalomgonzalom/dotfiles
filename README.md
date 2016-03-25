@@ -49,6 +49,9 @@
   * [Fugitive](https://github.com/tpope/vim-fugitive):
   * [Vim-Repeat](https://github.com/tpope/vim-repeat):
   * [Vim-gitgutter](https://github.com/airblade/vim-gitgutter): Shows a git diff in the gutter (sign column) and stages/reverts hunks.
+  * [Limelight](https://github.com/junegunn/limelight.vim):
+  * [Goyo](https://github.com/junegunn/goyo.vim):
+  * [gv](https://github.com/junegunn/gv.vim):
 
 ## Tmux - What's included?
 * Set prefix to `<Ctrl>+<space>`
