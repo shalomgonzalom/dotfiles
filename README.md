@@ -1,5 +1,5 @@
 # dotfiles
-:octocat: Development environment setup, where :heart: my belongs 
+:octocat: Development environment setup, where :heart: my belongs. 
 
 
 ## Features
@@ -19,15 +19,39 @@
 - [License](#license)
 - [Links](#links)
 
+## Shell - What's included?
+
+* Colorscheme: Base16-Solarized Dark [Base16-shell](https://github.com/chriskempson/base16-shell)
+
 ## Vim - What's included?
-* Set `<leader>` to a single space.
+* Use of [Neovim](https://github.com/neovim/neovim)
+* Set `<leader>` to a single `<space>`.
+* Plugin manager: [Vim-Plug](https://github.com/junegunn/vim-plug)
+* Status Bar: [Lightline](https://github.com/itchyny/lightline.vim)
+* Colorscheme: [Base16-vim](https://github.com/chriskempson/base16-vim)
 * Switch between the last two files with space-space.
 * Essential plugins:
   * [EasyMotion](https://github.com/easymotion/vim-easymotion):
-  * [FZF.vim] (https://github.com/junegunn/fzf.vim):
-  * 
+  * [FZF.vim](https://github.com/junegunn/fzf.vim):
+  * [IndentLine](https://github.com/Yggdroot/indentLine):
+  * [Deoplete](https://github.com/Shougo/deoplete.nvim): Asynchronous completion framework for Neovim.
+  * [Neomake](https://github.com/benekastah/neomake): Asynchronous :make using Neovim's job-control functionality.
+  * [Vim-test](https://github.com/janko-m/vim-test):
+  * [Fugitive](https://github.com/tpope/vim-fugitive):
+  * [Vim-Repeat](https://github.com/tpope/vim-repeat):
+  * [Vim-gitgutter](https://github.com/airblade/vim-gitgutter): Shows a git diff in the gutter (sign column) and stages/reverts hunks.
 
 ## Tmux - What's included?
-* Set prefix to `Ctrl+space`
+* Set prefix to `<Ctrl>+<space>`
+* Plugin manager: [TPM](https://github.com/tmux-plugins/tpm)
+* Session manager: [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
+* Plugins:
+ * [tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist): Lightweight tmux utils for manipulating tmux sessions.
+ * [tmux-yank](https://github.com/tmux-plugins/tmux-yank): Tmux plugin for copying to system clipboard.
+ * [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat): A plugin that enhances tmux search.
+ * [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect): Persists tmux environment across system restarts. 
+ * [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum): Continuous saving of tmux environment. Automatic restore when tmux is started. Automatic tmux start when computer is turned on.
 
+## i3wm - What's included?
+* Set prefix to `<Ctrl>`
 
