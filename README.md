@@ -1,12 +1,9 @@
 # dotfiles
 :octocat: Development environment setup, where :heart: my belongs. 
 
-
 ## Features
 
-* Auto-completion
-* Syntax highlighting
-* Automatic setting up of terminal tab / window title to current dir
+* All things are vimized.
 
 ## Table of content
 
@@ -24,13 +21,13 @@
 * Use of ZSH.
 * ZSH plugin manager: [Zplug](https://github.com/b4b4r07/zplug).
 * Plugins:
- *[enhancd](https://github.com/b4b4r07/enhancd):A next-generation cd command with an interactive filter.
- *[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search): ZSH port of Fish shell's history search feature. https://sunaku.github.io/switching-from-fish-to-zsh.html
- *[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting):
- *[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):
- *[zsh-completions](https://github.com/zsh-users/zsh-completions):
+  *[enhancd](https://github.com/b4b4r07/enhancd):A next-generation cd command with an interactive filter.
+  *[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search): Zsh port of Fish shell's history search feature. https://sunaku.github.io/switching-from-fish-to-zsh.html
+  *[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting): Fish shell like syntax highlighting for Zsh. 
+  *[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Fish-like autosuggestions for Zsh.
+  *[zsh-completions](https://github.com/zsh-users/zsh-completions): Additional completion definitions for Zsh.
 * Colorscheme: Base16-Solarized Dark [Base16-shell](https://github.com/chriskempson/base16-shell):
-* [fzf](https://github.com/junegunn/fzf)
+* [fzf](https://github.com/junegunn/fzf): A command-line fuzzy finder written in Go.
 
 ## Vim - What's included?
 * Use of [Neovim](https://github.com/neovim/neovim)
@@ -40,18 +37,20 @@
 * Colorscheme: [Base16-vim](https://github.com/chriskempson/base16-vim)
 * Switch between the last two files with space-space.
 * Essential plugins:
-  * [EasyMotion](https://github.com/easymotion/vim-easymotion):
-  * [fzf.vim](https://github.com/junegunn/fzf.vim):
-  * [IndentLine](https://github.com/Yggdroot/indentLine):
+  * [EasyMotion](https://github.com/easymotion/vim-easymotion): Vim motions on speed!.
+  * [fzf.vim](https://github.com/junegunn/fzf.vim): Things you can do with fzf and Vim.
+  * [IndentLine](https://github.com/Yggdroot/indentLine): A vim plugin to display the indention levels with thin vertical lines.
   * [Deoplete](https://github.com/Shougo/deoplete.nvim): Asynchronous completion framework for Neovim.
   * [Neomake](https://github.com/benekastah/neomake): Asynchronous :make using Neovim's job-control functionality.
-  * [Vim-test](https://github.com/janko-m/vim-test):
-  * [Fugitive](https://github.com/tpope/vim-fugitive):
-  * [Vim-Repeat](https://github.com/tpope/vim-repeat):
+  * [Vim-test](https://github.com/janko-m/vim-test): Run your tests at the speed of thought.
+  * [Fugitive](https://github.com/tpope/vim-fugitive): fugitive.vim: a Git wrapper so awesome, it should be illegal.
+  * [Vim-Projectionist](https://github.com/tpope/vim-projectionist):projectionist.vim: project configuration
+  * [Vim-Repeat](https://github.com/tpope/vim-repeat): repeat.vim: enable repeating supported plugin maps with ".".
+  * [Vim-Sleuth](https://github.com/tpope/vim-sleuth): sleuth.vim: Heuristically set buffer options
   * [Vim-gitgutter](https://github.com/airblade/vim-gitgutter): Shows a git diff in the gutter (sign column) and stages/reverts hunks.
-  * [Limelight](https://github.com/junegunn/limelight.vim):
-  * [Goyo](https://github.com/junegunn/goyo.vim):
-  * [gv](https://github.com/junegunn/gv.vim):
+  * [Limelight](https://github.com/junegunn/limelight.vim): Hyperfocus-writing in Vim.
+  * [Goyo](https://github.com/junegunn/goyo.vim): Distraction-free writing in Vim.
+  * [gv](https://github.com/junegunn/gv.vim): A git commit browser.
 
 ## Tmux - What's included?
 * Set prefix to `<Ctrl>+<space>`
@@ -69,3 +68,11 @@
 * Scripts used:
  * [i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout): Scripts to open new windows in i3wm using alternating layouts (splith/splitv) for each new window.
 
+## Git Utilities
+* [Tig](https://github.com/jonas/tig)
+
+### Git workflows
+* [git-flow](https://github.com/nvie/gitflow)
+* [gitlab-flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
+* [github-flow](https://guides.github.com/introduction/flow/)
+* [git-DMZ-flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66)
