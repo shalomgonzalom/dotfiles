@@ -88,3 +88,7 @@
 * [gitlab-flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
 * [github-flow](https://guides.github.com/introduction/flow/)
 * [git-DMZ-flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66)
+
+## TODO
+- [ ] Use [EditorConfig](https://github.com/editorconfig) for consistent coding style between IDEs and editors.
+- [ ] Use [ternjs](https://github.com/ternjs) for Javascript analyzer.
