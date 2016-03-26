@@ -81,6 +81,7 @@
 
 ## Git Utilities
 * [Tig](https://github.com/jonas/tig)
+* [gitsh](https://github.com/thoughtbot/gitsh)
 
 ### Git workflows
 * [git-flow](https://github.com/nvie/gitflow)
