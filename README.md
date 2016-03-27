@@ -10,10 +10,12 @@
 - [Installation](#installation)
 - [Setup](#setup)
 - [Keyboard setting](#keyboard)
+- [Vim-like keybinding programs](#utils)
 - [Shell - What's included?](#shell)
 - [Vim - What's included?](#vim)
 - [Tmux - What's included?](#tmux)
 - [i3wm - What's included?](#i3wm)
+- [Git Utilities](#gitutils)
 - [Thanks](#thanks)
 - [License](#license)
 - [Links](#links)
@@ -24,6 +26,13 @@
 
 ### Screenshot
 ![alt tag](https://raw.githubusercontent.com/shalomgonzalom/dotfiles/master/keyboard-layout.png)
+
+## Vim-like keybinding programs
+* File manager:
+  * [vifm](https://github.com/vifm/vifm)
+  * [ranger](https://github.com/hut/ranger)
+* Mail: [mutt]
+* PDF Reader: [Zathura](https://git.pwmt.org/pwmt/zathura)
 
 ## Shell - What's included?
 * Use of ZSH.
@@ -50,6 +59,7 @@
   * [fzf.vim](https://github.com/junegunn/fzf.vim): Things you can do with fzf and Vim.
   * [IndentLine](https://github.com/Yggdroot/indentLine): A vim plugin to display the indention levels with thin vertical lines.
   * [Deoplete](https://github.com/Shougo/deoplete.nvim): Asynchronous completion framework for Neovim.
+  * [UltiSnips](https://github.com/SirVer/ultisnips): The ultimate snippet solution for Vim.
   * [Neomake](https://github.com/benekastah/neomake): Asynchronous :make using Neovim's job-control functionality.
   * [Vim-test](https://github.com/janko-m/vim-test): Run your tests at the speed of thought.
   * [Fugitive](https://github.com/tpope/vim-fugitive): fugitive.vim: a Git wrapper so awesome, it should be illegal.
@@ -88,6 +98,7 @@
 * [gitlab-flow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
 * [github-flow](https://guides.github.com/introduction/flow/)
 * [git-DMZ-flow](https://gist.github.com/djspiewak/9f2f91085607a4859a66)
+
 
 ## TODO
 - [ ] Use [EditorConfig](https://github.com/editorconfig) for consistent coding style between IDEs and editors.
